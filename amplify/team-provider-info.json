@@ -1,0 +1,20 @@
+{
+  "devmob": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plantcareandroidapp-devmob-93112-authRole",
+      "UnauthRoleArn": "arn:aws:iam::902331659163:role/amplify-plantcareandroidapp-devmob-93112-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::902331659163:role/amplify-plantcareandroidapp-devmob-93112-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-plantcareandroidapp-devmob-93112-deployment",
+      "UnauthRoleName": "amplify-plantcareandroidapp-devmob-93112-unauthRole",
+      "StackName": "amplify-plantcareandroidapp-devmob-93112",
+      "StackId": "arn:aws:cloudformation:us-east-1:902331659163:stack/amplify-plantcareandroidapp-devmob-93112/9780e790-e83d-11ed-9662-0e18423ee203",
+      "AmplifyAppId": "d291ntvqy4ipar"
+    },
+    "categories": {
+      "auth": {
+        "plantcareappauth": {}
+      }
+    }
+  }
+}
