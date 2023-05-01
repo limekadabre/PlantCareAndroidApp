@@ -2,8 +2,12 @@ package com.example.plantcareandroidapp1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.amplifyframework.AmplifyException;
@@ -27,13 +31,15 @@ public class MainActivity extends AppCompatActivity {
         projectsGV = findViewById(R.id.idProjects);
         ArrayList<ProjectsModel> courseModelArrayList = new ArrayList<ProjectsModel>();
 
-        courseModelArrayList.add(new ProjectsModel("abc123", "Strawberry Plant"));
-        courseModelArrayList.add(new ProjectsModel("abc567", "Mushroom Plant"));
+        courseModelArrayList.add(new ProjectsModel("abc123", "Project 1"));
+        courseModelArrayList.add(new ProjectsModel("abc567", "Project 2"));
 
         ProjectsAdapter adapter = new ProjectsAdapter(this, courseModelArrayList);
 //        projectsGV.setAdapter(adapter);
         projectsGV.setAdapter(adapter);
-
-
     }
-}
+
+            public void navigateToDetailPage(View view) {
+                Log.i("navigate", "navigateToDetailPage: ");
+            }
+        }
